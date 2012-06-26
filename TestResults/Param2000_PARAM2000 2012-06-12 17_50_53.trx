@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="67dc3d27-2195-4240-a295-4fca6de0b82c" name="Param2000@PARAM2000 2012-06-12 17:50:53" runUser="PARAM2000\Param2000" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2b4421dd-8337-4820-9d19-11622f187262">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Param2000_PARAM2000 2012-06-12 17_50_53">
+      <DeploymentItem filename="c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Core\bin\Debug\Core.dll" />
+      <DeploymentItem filename="c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Infrastructure\bin\Debug\Infrastructure.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-12T17:50:53.4341982-05:00" queuing="2012-06-12T17:50:54.1832383-05:00" start="2012-06-12T17:50:54.2812439-05:00" finish="2012-06-12T17:50:58.6994899-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PARAM2000" outcome="Error" timestamp="2012-06-12T17:50:58.6984898-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SearchParameterConstructorShouldInitializeValuesCorrectly" storage="c:\users\param2000\documents\visual studio 2010\projects\searchexample\search.tests\bin\debug\search.tests.dll" id="1e10af19-75b7-18ee-102e-5e46d893d171">
+      <Execution id="5a8a23e9-3da9-4af0-988a-58e1dbf71823" />
+      <TestMethod codeBase="c:/users/param2000/documents/visual studio 2010/Projects/SearchExample/Search.Tests/bin/Debug/Search.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Search.Tests.SearchParameterTester, Search.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchParameterConstructorShouldInitializeValuesCorrectly" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1e10af19-75b7-18ee-102e-5e46d893d171" executionId="5a8a23e9-3da9-4af0-988a-58e1dbf71823" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5a8a23e9-3da9-4af0-988a-58e1dbf71823" testId="1e10af19-75b7-18ee-102e-5e46d893d171" testName="SearchParameterConstructorShouldInitializeValuesCorrectly" computerName="PARAM2000" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a8a23e9-3da9-4af0-988a-58e1dbf71823">
+    </UnitTestResult>
+  </Results>
+</TestRun>

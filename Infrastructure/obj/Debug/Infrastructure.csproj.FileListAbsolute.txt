@@ -1,0 +1,7 @@
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Infrastructure\bin\Debug\Infrastructure.dll
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Infrastructure\bin\Debug\Infrastructure.pdb
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Infrastructure\bin\Debug\Core.dll
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Infrastructure\bin\Debug\Core.pdb
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Infrastructure\obj\Debug\Infrastructure.dll
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Infrastructure\obj\Debug\Infrastructure.pdb

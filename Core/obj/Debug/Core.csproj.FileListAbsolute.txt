@@ -1,0 +1,4 @@
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Core\bin\Debug\Core.dll
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Core\bin\Debug\Core.pdb
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Core\obj\Debug\Core.dll
+c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Core\obj\Debug\Core.pdb
