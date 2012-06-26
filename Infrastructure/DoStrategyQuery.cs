@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Core.StrategyPattern;
-using Core.common;
+using Core.Search;
+using Core.Common;
 
 namespace Infrastructure
 {

@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace Core.StrategyPattern
+namespace Core.Search
 {
     public interface IDoSearch
     {

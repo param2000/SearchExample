@@ -1,6 +1,6 @@
 using System;
-using Core.StrategyPattern;
-using Core.common;
+using Core.Search;
+using Core.Common;
 using Infrastructure.Operators;
 
 namespace Infrastructure

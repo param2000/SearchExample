@@ -1,6 +1,6 @@
-using Core.common;
+using Core.Common;
 
-namespace Core.StrategyPattern
+namespace Core.Search
 {
     public interface ISearchFactory
     {

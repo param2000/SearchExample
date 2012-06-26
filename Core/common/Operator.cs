@@ -1,4 +1,4 @@
-﻿namespace Core.common
+﻿namespace Core.Common
 {
     public interface IOperator
     {

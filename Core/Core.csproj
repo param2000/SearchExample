@@ -31,22 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="StrategyPattern\IDoSearch.cs" />
-    <Compile Include="StrategyPattern\IDoStrategyQuery.cs" />
-    <Compile Include="StrategyPattern\ISearch.cs" />
-    <Compile Include="StrategyPattern\ISearchFactory.cs" />
-    <Compile Include="common\OperatorType.cs" />
-    <Compile Include="common\SearchElement.cs" />
-    <Compile Include="common\Operator.cs" />
+    <Compile Include="Search\IDoSearch.cs" />
+    <Compile Include="Search\IDoStrategyQuery.cs" />
+    <Compile Include="Search\ISearch.cs" />
+    <Compile Include="Search\ISearchFactory.cs" />
+    <Compile Include="Common\OperatorType.cs" />
+    <Compile Include="Common\SearchElement.cs" />
+    <Compile Include="Common\Operator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

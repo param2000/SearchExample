@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-using Core.StrategyPattern;
+using Core.Search;
 
 namespace Infrastructure
 {
