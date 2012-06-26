@@ -21,7 +21,7 @@ namespace Search.Tests
        public void EqualityTest()
        {
             IList<SearchElement<string>> list = new List<SearchElement<string>>();
-            list.Add(new SearchElement<string>() { Obj = "1", Oprs = OperatorType.Equals });
+            list.Add(new SearchElement<string> { Obj = "1", Oprs = OperatorType.Equals });
            
            var search = new DoStrategyQuery<String>(list, _searchlist.AsQueryable(),SearchFactory.GetInstanceOfSearchFactoru());
             Assert.AreEqual(2, search.ExecuteSearch().Count());
@@ -30,7 +30,7 @@ namespace Search.Tests
        public void NotEqualityTest()
        {
             IList<SearchElement<string>> list = new List<SearchElement<string>>();
-            list.Add(new SearchElement<string>() { Obj = "1", Oprs = OperatorType.NotEquals });
+            list.Add(new SearchElement<string> { Obj = "1", Oprs = OperatorType.NotEquals });
 
             var search = new DoStrategyQuery<String>(list, _searchlist.AsQueryable(), SearchFactory.GetInstanceOfSearchFactoru());
             Assert.AreEqual(3, search.ExecuteSearch().Count());
@@ -40,7 +40,7 @@ namespace Search.Tests
        public void LessThanTest()
        {
            IList<SearchElement<string>> list = new List<SearchElement<string>>();
-           list.Add(new SearchElement<string>() { Obj = "2", Oprs = OperatorType.LessThan });
+           list.Add(new SearchElement<string> { Obj = "2", Oprs = OperatorType.LessThan });
 
            var search = new DoStrategyQuery<String>(list, _searchlist.AsQueryable(), SearchFactory.GetInstanceOfSearchFactoru());
            Assert.AreEqual(2, search.ExecuteSearch().Count());
@@ -50,7 +50,7 @@ namespace Search.Tests
        public void GreaterThanTest()
        {
            IList<SearchElement<string>> list = new List<SearchElement<string>>();
-           list.Add(new SearchElement<string>() { Obj = "1", Oprs = OperatorType.Greaterthan });
+           list.Add(new SearchElement<string> { Obj = "1", Oprs = OperatorType.Greaterthan });
 
            var search = new DoStrategyQuery<String>(list, _searchlist.AsQueryable(), SearchFactory.GetInstanceOfSearchFactoru());
            Assert.AreEqual(3, search.ExecuteSearch().Count());
@@ -60,7 +60,7 @@ namespace Search.Tests
        public void LessThanEqualsTest()
        {
            IList<SearchElement<string>> list = new List<SearchElement<string>>();
-           list.Add(new SearchElement<string>() { Obj = "2", Oprs = OperatorType.LessThanEquals });
+           list.Add(new SearchElement<string> { Obj = "2", Oprs = OperatorType.LessThanEquals });
 
            var search = new DoStrategyQuery<String>(list, _searchlist.AsQueryable(), SearchFactory.GetInstanceOfSearchFactoru());
            Assert.AreEqual(3, search.ExecuteSearch().Count());
@@ -70,7 +70,7 @@ namespace Search.Tests
        public void GreaterThanEqualsTest()
        {
            IList<SearchElement<string>> list = new List<SearchElement<string>>();
-           list.Add(new SearchElement<string>() { Obj = "2", Oprs = OperatorType.GreaterthanEquals });
+           list.Add(new SearchElement<string> { Obj = "2", Oprs = OperatorType.GreaterthanEquals });
 
            var search = new DoStrategyQuery<String>(list, _searchlist.AsQueryable(), SearchFactory.GetInstanceOfSearchFactoru());
            Assert.AreEqual(3, search.ExecuteSearch().Count());

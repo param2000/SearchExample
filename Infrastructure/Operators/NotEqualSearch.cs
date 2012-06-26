@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using Core.StrategyPattern;
 
-namespace Infrastructure
+namespace Infrastructure.Operators
 {
     public class NotEqualSearch : ISearch
     {

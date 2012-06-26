@@ -1,6 +1,7 @@
 using System;
 using Core.StrategyPattern;
 using Core.common;
+using Infrastructure.Operators;
 
 namespace Infrastructure
 {

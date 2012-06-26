@@ -42,12 +42,12 @@
   <ItemGroup>
     <Compile Include="DoSearch.cs" />
     <Compile Include="DoStrategyQuery.cs" />
-    <Compile Include="EqualSearch.cs" />
-    <Compile Include="GreaterThanEqualSearch.cs" />
-    <Compile Include="GreaterThanSearch.cs" />
-    <Compile Include="LessThanEqualSearch.cs" />
-    <Compile Include="LessThanSearch.cs" />
-    <Compile Include="NotEqualSearch.cs" />
+    <Compile Include="Operators\EqualSearch.cs" />
+    <Compile Include="Operators\GreaterThanEqualSearch.cs" />
+    <Compile Include="Operators\GreaterThanSearch.cs" />
+    <Compile Include="Operators\LessThanEqualSearch.cs" />
+    <Compile Include="Operators\LessThanSearch.cs" />
+    <Compile Include="Operators\NotEqualSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchFactory.cs" />
   </ItemGroup>
