@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-using Core.Search;
+using Core.Operators;
 
 namespace Infrastructure.Operators
 {

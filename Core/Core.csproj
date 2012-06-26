@@ -33,7 +33,7 @@
   <ItemGroup>
     <Compile Include="Search\IDoSearch.cs" />
     <Compile Include="Search\IDoStrategyQuery.cs" />
-    <Compile Include="Search\ISearch.cs" />
+    <Compile Include="Operators\ISearch.cs" />
     <Compile Include="Search\ISearchFactory.cs" />
     <Compile Include="Common\OperatorType.cs" />
     <Compile Include="Common\SearchElement.cs" />

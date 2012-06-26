@@ -1,4 +1,5 @@
 using Core.Common;
+using Core.Operators;
 
 namespace Core.Search
 {

@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace Core.Search
+namespace Core.Operators
 {
     public interface ISearch
     {
