@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="44beae95-609c-4021-9cde-e9bae97e21f6" name="Param2000@PARAM2000 2012-06-25 22:59:09" runUser="PARAM2000\Param2000" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2b4421dd-8337-4820-9d19-11622f187262">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Param2000_PARAM2000 2012-06-25 22_59_09">
+      <DeploymentItem filename="C:\GithubRepositories\SearchExample\Core\bin\Debug\Core.dll" />
+      <DeploymentItem filename="C:\GithubRepositories\SearchExample\Infrastructure\bin\Debug\Infrastructure.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-25T22:59:09.2977599-05:00" queuing="2012-06-25T22:59:09.6477604-05:00" start="2012-06-25T22:59:09.6777604-05:00" finish="2012-06-25T23:24:23.7800018-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="9" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PARAM2000" outcome="Error" timestamp="2012-06-25T23:24:23.7800018-05:00">
+        <Text>The connection to the controller was lost.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NotEqualityTest" storage="c:\githubrepositories\searchexample\search.tests\bin\debug\search.tests.dll" id="aba40ead-2f49-a581-fc54-f2689e4ffb21">
+      <Execution id="70903a4b-7e50-42f7-9c3c-fcd354185ac1" />
+      <TestMethod codeBase="C:/GithubRepositories/SearchExample/Search.Tests/bin/Debug/Search.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Search.Tests.DoStrategyQueryTest, Search.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotEqualityTest" />
+    </UnitTest>
+    <UnitTest name="EqualityTest" storage="c:\githubrepositories\searchexample\search.tests\bin\debug\search.tests.dll" id="666e8a1a-3530-7f8c-a0a8-f1af01d62cb8">
+      <Execution id="640a5821-5f63-4e08-a9b2-30d6b189f092" />
+      <TestMethod codeBase="C:/GithubRepositories/SearchExample/Search.Tests/bin/Debug/Search.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Search.Tests.DoStrategyQueryTest, Search.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EqualityTest" />
+    </UnitTest>
+    <UnitTest name="SearchParameterConstructorShouldInitializeValuesCorrectly" storage="c:\githubrepositories\searchexample\search.tests\bin\debug\search.tests.dll" id="1e10af19-75b7-18ee-102e-5e46d893d171">
+      <Execution id="cf0adf40-681b-4a3b-b8aa-72597d8b9f03" />
+      <TestMethod codeBase="C:/GithubRepositories/SearchExample/Search.Tests/bin/Debug/Search.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Search.Tests.SearchParameterTester, Search.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchParameterConstructorShouldInitializeValuesCorrectly" />
+    </UnitTest>
+    <UnitTest name="GreaterThanEqualsTest" storage="c:\githubrepositories\searchexample\search.tests\bin\debug\search.tests.dll" id="d8b20203-cabc-0c91-25da-23cfbbf2e238">
+      <Execution id="dc7651f0-9259-4af8-b494-cddfca6be8e2" />
+      <TestMethod codeBase="C:/GithubRepositories/SearchExample/Search.Tests/bin/Debug/Search.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Search.Tests.DoStrategyQueryTest, Search.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GreaterThanEqualsTest" />
+    </UnitTest>
+    <UnitTest name="NotEqualSearchConstructorTest" storage="c:\githubrepositories\searchexample\search.tests\bin\debug\search.tests.dll" id="c1695c17-1b9c-8b14-b0f6-473741973753">
+      <Execution id="c29da2eb-fd7d-4ebf-b965-1611573e3d18" />
+      <TestMethod codeBase="C:/GithubRepositories/SearchExample/Search.Tests/bin/Debug/Search.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Search.Tests.NotEqualSearchTest, Search.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotEqualSearchConstructorTest" />
+    </UnitTest>
+    <UnitTest name="LessThanTest" storage="c:\githubrepositories\searchexample\search.tests\bin\debug\search.tests.dll" id="3ea820a1-f5fe-28d4-572d-1ae066abecc8">
+      <Execution id="c5f93972-4041-4f4d-b408-22b597a0b940" />
+      <TestMethod codeBase="C:/GithubRepositories/SearchExample/Search.Tests/bin/Debug/Search.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Search.Tests.DoStrategyQueryTest, Search.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LessThanTest" />
+    </UnitTest>
+    <UnitTest name="EqualSearchConstructorTest" storage="c:\githubrepositories\searchexample\search.tests\bin\debug\search.tests.dll" id="5ec96c6f-b811-f5f8-0fb8-6fc5de8a6394">
+      <Execution id="5e81e591-cce5-4b6d-8b6d-0e8e7bbdf856" />
+      <TestMethod codeBase="C:/GithubRepositories/SearchExample/Search.Tests/bin/Debug/Search.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Search.Tests.EqualSearchTest, Search.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EqualSearchConstructorTest" />
+    </UnitTest>
+    <UnitTest name="LessThanEqualsTest" storage="c:\githubrepositories\searchexample\search.tests\bin\debug\search.tests.dll" id="6ea7a933-0fc2-bd96-54c8-9cf1f61ca362">
+      <Execution id="f6be7e3f-2cfd-4fa0-b22c-fc93c4b72847" />
+      <TestMethod codeBase="C:/GithubRepositories/SearchExample/Search.Tests/bin/Debug/Search.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Search.Tests.DoStrategyQueryTest, Search.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LessThanEqualsTest" />
+    </UnitTest>
+    <UnitTest name="GreaterThanTest" storage="c:\githubrepositories\searchexample\search.tests\bin\debug\search.tests.dll" id="503c0674-336c-ee24-74ca-43ca1595c1f8">
+      <Execution id="bf305730-0bf1-4a2d-bf47-af48f35e3b88" />
+      <TestMethod codeBase="C:/GithubRepositories/SearchExample/Search.Tests/bin/Debug/Search.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Search.Tests.DoStrategyQueryTest, Search.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GreaterThanTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1e10af19-75b7-18ee-102e-5e46d893d171" executionId="cf0adf40-681b-4a3b-b8aa-72597d8b9f03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ea820a1-f5fe-28d4-572d-1ae066abecc8" executionId="c5f93972-4041-4f4d-b408-22b597a0b940" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="503c0674-336c-ee24-74ca-43ca1595c1f8" executionId="bf305730-0bf1-4a2d-bf47-af48f35e3b88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ec96c6f-b811-f5f8-0fb8-6fc5de8a6394" executionId="5e81e591-cce5-4b6d-8b6d-0e8e7bbdf856" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="666e8a1a-3530-7f8c-a0a8-f1af01d62cb8" executionId="640a5821-5f63-4e08-a9b2-30d6b189f092" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ea7a933-0fc2-bd96-54c8-9cf1f61ca362" executionId="f6be7e3f-2cfd-4fa0-b22c-fc93c4b72847" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aba40ead-2f49-a581-fc54-f2689e4ffb21" executionId="70903a4b-7e50-42f7-9c3c-fcd354185ac1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1695c17-1b9c-8b14-b0f6-473741973753" executionId="c29da2eb-fd7d-4ebf-b965-1611573e3d18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8b20203-cabc-0c91-25da-23cfbbf2e238" executionId="dc7651f0-9259-4af8-b494-cddfca6be8e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cf0adf40-681b-4a3b-b8aa-72597d8b9f03" testId="1e10af19-75b7-18ee-102e-5e46d893d171" testName="SearchParameterConstructorShouldInitializeValuesCorrectly" computerName="PARAM2000" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf0adf40-681b-4a3b-b8aa-72597d8b9f03">
+    </UnitTestResult>
+    <UnitTestResult executionId="c5f93972-4041-4f4d-b408-22b597a0b940" testId="3ea820a1-f5fe-28d4-572d-1ae066abecc8" testName="LessThanTest" computerName="PARAM2000" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5f93972-4041-4f4d-b408-22b597a0b940">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf305730-0bf1-4a2d-bf47-af48f35e3b88" testId="503c0674-336c-ee24-74ca-43ca1595c1f8" testName="GreaterThanTest" computerName="PARAM2000" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf305730-0bf1-4a2d-bf47-af48f35e3b88">
+    </UnitTestResult>
+    <UnitTestResult executionId="5e81e591-cce5-4b6d-8b6d-0e8e7bbdf856" testId="5ec96c6f-b811-f5f8-0fb8-6fc5de8a6394" testName="EqualSearchConstructorTest" computerName="PARAM2000" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e81e591-cce5-4b6d-8b6d-0e8e7bbdf856">
+    </UnitTestResult>
+    <UnitTestResult executionId="640a5821-5f63-4e08-a9b2-30d6b189f092" testId="666e8a1a-3530-7f8c-a0a8-f1af01d62cb8" testName="EqualityTest" computerName="PARAM2000" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="640a5821-5f63-4e08-a9b2-30d6b189f092">
+    </UnitTestResult>
+    <UnitTestResult executionId="f6be7e3f-2cfd-4fa0-b22c-fc93c4b72847" testId="6ea7a933-0fc2-bd96-54c8-9cf1f61ca362" testName="LessThanEqualsTest" computerName="PARAM2000" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6be7e3f-2cfd-4fa0-b22c-fc93c4b72847">
+    </UnitTestResult>
+    <UnitTestResult executionId="70903a4b-7e50-42f7-9c3c-fcd354185ac1" testId="aba40ead-2f49-a581-fc54-f2689e4ffb21" testName="NotEqualityTest" computerName="PARAM2000" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70903a4b-7e50-42f7-9c3c-fcd354185ac1">
+    </UnitTestResult>
+    <UnitTestResult executionId="c29da2eb-fd7d-4ebf-b965-1611573e3d18" testId="c1695c17-1b9c-8b14-b0f6-473741973753" testName="NotEqualSearchConstructorTest" computerName="PARAM2000" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c29da2eb-fd7d-4ebf-b965-1611573e3d18">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc7651f0-9259-4af8-b494-cddfca6be8e2" testId="d8b20203-cabc-0c91-25da-23cfbbf2e238" testName="GreaterThanEqualsTest" computerName="PARAM2000" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc7651f0-9259-4af8-b494-cddfca6be8e2">
+    </UnitTestResult>
+  </Results>
+</TestRun>
