@@ -7,3 +7,12 @@ c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Search.Te
 c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Search.Tests\obj\Debug\Search.Tests.csprojResolveAssemblyReference.cache
 c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Search.Tests\obj\Debug\Search.Tests.dll
 c:\users\param2000\documents\visual studio 2010\Projects\SearchExample\Search.Tests\obj\Debug\Search.Tests.pdb
+C:\GithubRepositories\SearchExample\Search.Tests\bin\Debug\Search.Tests.dll
+C:\GithubRepositories\SearchExample\Search.Tests\bin\Debug\Search.Tests.pdb
+C:\GithubRepositories\SearchExample\Search.Tests\bin\Debug\Core.dll
+C:\GithubRepositories\SearchExample\Search.Tests\bin\Debug\Infrastructure.dll
+C:\GithubRepositories\SearchExample\Search.Tests\bin\Debug\Core.pdb
+C:\GithubRepositories\SearchExample\Search.Tests\bin\Debug\Infrastructure.pdb
+C:\GithubRepositories\SearchExample\Search.Tests\obj\Debug\Search.Tests.csprojResolveAssemblyReference.cache
+C:\GithubRepositories\SearchExample\Search.Tests\obj\Debug\Search.Tests.dll
+C:\GithubRepositories\SearchExample\Search.Tests\obj\Debug\Search.Tests.pdb

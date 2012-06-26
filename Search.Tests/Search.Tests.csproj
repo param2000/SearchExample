@@ -51,10 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DoStrategyQueryTest.cs" />
-    <Compile Include="EqualSearchTest.cs" />
-    <Compile Include="NotEqualSearchTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchParameterTester.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">

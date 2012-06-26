@@ -40,7 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoSearch.cs" />
+    <Compile Include="DoStrategyQuery.cs" />
+    <Compile Include="EqualSearch.cs" />
+    <Compile Include="GreaterThanEqualSearch.cs" />
+    <Compile Include="GreaterThanSearch.cs" />
+    <Compile Include="LessThanEqualSearch.cs" />
+    <Compile Include="LessThanSearch.cs" />
+    <Compile Include="NotEqualSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">

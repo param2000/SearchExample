@@ -40,26 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StrategyPattern\DoStrategyQuery.cs" />
-    <Compile Include="StrategyPattern\DoSearch.cs" />
-    <Compile Include="DifferentImplementation\EqualOperator.cs" />
-    <Compile Include="StrategyPattern\EqualSearch.cs" />
-    <Compile Include="DifferentImplementation\Extensions.cs" />
-    <Compile Include="DifferentImplementation\LessThanOperator.cs" />
-    <Compile Include="DifferentImplementation\NotEqualOperator.cs" />
-    <Compile Include="StrategyPattern\GreaterThanEqualSearch.cs" />
-    <Compile Include="StrategyPattern\GreaterThanSearch.cs" />
+    <Compile Include="StrategyPattern\IDoSearch.cs" />
+    <Compile Include="StrategyPattern\IDoStrategyQuery.cs" />
     <Compile Include="StrategyPattern\ISearch.cs" />
     <Compile Include="StrategyPattern\ISearchFactory.cs" />
-    <Compile Include="StrategyPattern\LessThanEqualSearch.cs" />
-    <Compile Include="StrategyPattern\LessThanSearch.cs" />
-    <Compile Include="StrategyPattern\NotEqualSearch.cs" />
     <Compile Include="common\OperatorType.cs" />
     <Compile Include="common\SearchElement.cs" />
     <Compile Include="common\Operator.cs" />
-    <Compile Include="DifferentImplementation\PerformSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StrategyPattern\SearchFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
