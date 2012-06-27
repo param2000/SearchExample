@@ -4,7 +4,7 @@ using Core.Search;
 using Core.Common;
 using Infrastructure.Operators;
 
-namespace Infrastructure
+namespace Infrastructure.Search
 {
     //Singleton class
     public class SearchFactory : ISearchFactory

@@ -4,7 +4,7 @@ using System.Linq;
 using Core.Search;
 using Core.Common;
 
-namespace Infrastructure
+namespace Infrastructure.Search
 {
     public class DoStrategyQuery<T> : IDoStrategyQuery<T> where T:IComparable
     {

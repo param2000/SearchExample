@@ -31,8 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DoSearch.cs" />
-    <Compile Include="DoStrategyQuery.cs" />
+    <Compile Include="Search\DoSearch.cs" />
+    <Compile Include="Search\DoStrategyQuery.cs" />
     <Compile Include="Operators\EqualSearch.cs" />
     <Compile Include="Operators\GreaterThanEqualSearch.cs" />
     <Compile Include="Operators\GreaterThanSearch.cs" />
@@ -40,7 +40,7 @@
     <Compile Include="Operators\LessThanSearch.cs" />
     <Compile Include="Operators\NotEqualSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchFactory.cs" />
+    <Compile Include="Search\SearchFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">

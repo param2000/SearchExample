@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Core.Common;
 using Infrastructure;
+using Infrastructure.Search;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Linq;

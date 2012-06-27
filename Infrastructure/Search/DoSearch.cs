@@ -3,7 +3,7 @@ using System.Linq;
 using Core.Operators;
 using Core.Search;
 
-namespace Infrastructure
+namespace Infrastructure.Search
 {
     public class DoSearch : IDoSearch
     {
