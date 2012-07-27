@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using Core.Operators;
 using Core.Search;
 using Core.Common;
@@ -9,6 +11,15 @@ namespace Infrastructure.Search
     //Singleton class
     public class SearchFactory : ISearchFactory
     {
+        private static IList<ISearch> _operators = new List<ISearch>()
+                                                  {
+                                                      new EqualSearch(),
+                                                      new NotEqualSearch(),
+                                                      new LessThanSearch(),
+                                                      new GreaterThanSearch(),
+                                                      new LessThanEqualSearch(),
+                                                      new GreaterThanEqualSearch()
+                                                  };
         private static SearchFactory _searchFactory;
         private SearchFactory()
         {}
@@ -19,22 +30,7 @@ namespace Infrastructure.Search
         
         public ISearch GetSearchImplementation(OperatorType type)
         {
-            //TODO This implementation is not pretty need to remove so many iffs 
-            // this whole operation can be replaced by container logic
-             if (type == OperatorType.Equals)
-                 return new EqualSearch();
-                if (type == OperatorType.NotEquals)
-                  return new NotEqualSearch();
-                if (type == OperatorType.LessThan)
-                    return new LessThanSearch();
-                if (type == OperatorType.Greaterthan)
-                    return new GreaterThanSearch();
-                if (type == OperatorType.LessThanEquals)
-                    return new LessThanEqualSearch();
-                if (type == OperatorType.GreaterthanEquals)
-                    return new GreaterThanEqualSearch();
-               
-           throw new NotImplementedException("Cannot find the implementation of the operator");
+            return _operators.First(s => s.CanHandle(type));
         }
     }
 }
