@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using Core.Common;
 using Core.Operators;
 
 namespace Infrastructure.Operators
@@ -14,5 +15,10 @@ namespace Infrastructure.Operators
 
             return query;
         }
+
+       public bool CanHandle(OperatorType type)
+       {
+           return type.Equals(OperatorType.Equals);
+       }
     }
 }
