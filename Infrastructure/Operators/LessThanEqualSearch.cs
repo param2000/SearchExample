@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using Core.Common;
 using Core.Operators;
 using Core.Search;
 
@@ -13,6 +14,11 @@ namespace Infrastructure.Operators
                 query = query.Where(e => e.CompareTo(value) <= 0);
 
             return query;
+        }
+
+        public bool CanHandle(OperatorType type)
+        {
+            return type.Equals(OperatorType.Equals);
         }
     }
 }
