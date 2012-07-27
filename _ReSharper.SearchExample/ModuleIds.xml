@@ -1,5 +1,0 @@
-<Modules>
-  <Module PersistentId="D20B4100-7653-43E4-84DB-64D65F952F98" ModuleId="Core" />
-  <Module PersistentId="34E28592-BC71-45F1-9877-25C1701AA01A" ModuleId="Infrastructure" />
-  <Module PersistentId="4DBC8445-291E-4846-A66C-269FEB3DB160" ModuleId="Search.Tests" />
-</Modules>
